@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_bottom"
+    app:startDestination="@id/weatherFragment">
+
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.nurgylesimsapplication.app.WeatherFragment.WeatherFragment"
+        android:label="Weather"
+        tools:layout="@layout/fragment_weather" />
+    <fragment
+        android:id="@+id/citiesFragment"
+        android:name="com.nurgylesimsapplication.app.CitiesFragment"
+        android:label="Cities"
+        tools:layout="@layout/fragment_cities" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.nurgylesimsapplication.app.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

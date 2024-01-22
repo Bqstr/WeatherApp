@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+
+   android:layout_height="match_parent" android:layout_width="match_parent">
+    <LinearLayout
+
+        android:gravity="center_horizontal"
+        android:id="@+id/linearDay" android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyle_1">
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtSanFrancisco"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_marginTop="@dimen/_24pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@string/lbl_san_francisco"
+            style="@style/txtCalistogaregular36" tools:text="@string/lbl_san_francisco"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtClear"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_marginTop="@dimen/_19pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true" android:text="@string/lbl_clear"
+            style="@style/txtRobotoregular24" tools:text="@string/lbl_clear"/>
+        <ImageView android:id="@+id/imageBrightness"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_100pxh"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_marginTop="@dimen/_19pxv"
+            android:layout_width="@dimen/_100pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_brightness"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_brightness"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtEleven"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_width="wrap_content"
+            android:singleLine="true" android:text="@string/lbl_11"
+            style="@style/txtRobotobold72" tools:text="@string/lbl_11"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtMayXX20XX"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_marginTop="@dimen/_17pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@string/lbl_may_xx_20xx"
+            style="@style/txtRobotoregular22" tools:text="@string/lbl_may_xx_20xx"/>
+
+
+
+    <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnlineone"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_19pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_marginTop="@dimen/_54pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <View android:background="@color/gray_500"
+                android:id="@+id/lineLineOne"
+                android:layout_height="@dimen/_1pxv" android:layout_width="@dimen/_335pxh"/>
+            <View android:background="@color/gray_500"
+                android:id="@+id/lineLineTwo"
+                android:layout_height="@dimen/_1pxv" android:layout_width="@dimen/_335pxh"/>
+            <LinearLayout android:id="@+id/linearRowweekday"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_11pxh"
+                android:layout_marginTop="@dimen/_5pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtWeekday"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@string/lbl_monday"
+                    style="@style/txtRobotoregular20" tools:text="@string/lbl_monday"/>
+                <LinearLayout android:id="@+id/linearRowcloudone"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_78pxh"
+                    android:layout_weight="0.7"
+                    android:layout_width="0dp" android:orientation="horizontal">
+                    <ImageView android:id="@+id/imageCloudOne"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="@dimen/_4pxv"
+                        android:layout_marginTop="@dimen/_5pxv"
+                        android:layout_width="@dimen/_30pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_cloud1"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_cloud1"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtTen"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_66pxh"
+                        android:layout_weight="0.32"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@string/lbl_10"
+                        style="@style/txtRobotoregular24" tools:text="@string/lbl_10"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtTenOne"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_21pxh"
+                        android:layout_weight="0.32"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@string/lbl_10"
+                        style="@style/txtRobotoregular24_1" tools:text="@string/lbl_10"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <View android:background="@color/gray_500"
+            android:id="@+id/lineLineThree"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginEnd="@dimen/_19pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_marginTop="@dimen/_9pxv" android:layout_width="@dimen/_335pxh"/>
+
+    <LinearLayout
+        android:layout_marginStart="18dp"
+        android:id="@+id/abibus"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_11pxh"
+        android:layout_marginTop="@dimen/_5pxv"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <TextView android:ellipsize="end"
+            android:id="@+id/next2Day"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_1pxv"
+            android:layout_marginTop="@dimen/_4pxv"
+
+            android:layout_width="wrap_content"
+            android:text="@string/lbl_monday"
+            style="@style/txtRobotoregular20" tools:text="@string/lbl_monday"/>
+        <LinearLayout android:id="@+id/asd"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_78pxh"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <ImageView android:id="@+id/next2DayWeatherIcon"
+                android:layout_height="30dp"
+                android:layout_marginBottom="@dimen/_4pxv"
+                android:layout_marginTop="@dimen/_5pxv"
+                android:layout_width="@dimen/_30pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_cloud1"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_cloud1"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/next2DayWeatherDay"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_66pxh"
+                android:layout_weight="0.32"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@string/lbl_10"
+                style="@style/txtRobotoregular24" tools:text="@string/lbl_10"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/next2DayWeatherNight"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_21pxh"
+                android:layout_weight="0.32"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@string/lbl_10"
+                style="@style/txtRobotoregular24_1" tools:text="@string/lbl_10"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View android:background="@color/gray_500"
+            android:id="@+id/lineLineSeven"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="@dimen/_19pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_marginTop="@dimen/_6pxv" android:layout_width="@dimen/_335pxh"/>
+
+    <LinearLayout
+        android:layout_marginStart="18dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_11pxh"
+
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <TextView android:ellipsize="end"
+            android:id="@+id/next3DayName"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_1pxv"
+            android:layout_marginTop="@dimen/_4pxv"
+
+            android:layout_width="wrap_content"
+            android:text="@string/lbl_monday"
+            style="@style/txtRobotoregular20" tools:text="@string/lbl_monday"/>
+        <LinearLayout android:id="@+id/adsd"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_78pxh"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <ImageView android:id="@+id/next3DayWeatherIcon"
+                android:layout_height="30dp"
+                android:layout_marginBottom="@dimen/_4pxv"
+                android:layout_marginTop="@dimen/_5pxv"
+                android:layout_width="@dimen/_30pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_cloud1"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_cloud1"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/next3DayWeatherDay"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_66pxh"
+                android:layout_weight="0.32"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@string/lbl_10"
+                style="@style/txtRobotoregular24" tools:text="@string/lbl_10"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/next3DayWeatherNight"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_21pxh"
+                android:layout_weight="0.32"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@string/lbl_10"
+                style="@style/txtRobotoregular24_1" tools:text="@string/lbl_10"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/gray_500"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="@dimen/_1pxv"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="@dimen/_19pxh"
+        android:layout_marginStart="@dimen/_21pxh"
+        android:layout_marginTop="@dimen/_6pxv" android:layout_width="@dimen/_335pxh"/>
+
+    <LinearLayout
+        android:layout_marginStart="18dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_11pxh"
+
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <TextView android:ellipsize="end"
+            android:id="@+id/next4DayName"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_1pxv"
+            android:layout_marginTop="@dimen/_4pxv"
+
+            android:layout_width="wrap_content"
+            android:text="@string/lbl_monday"
+            style="@style/txtRobotoregular20" tools:text="@string/lbl_monday"/>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_78pxh"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <ImageView android:id="@+id/next4DayWeatherIcon"
+                android:layout_height="30dp"
+                android:layout_marginBottom="@dimen/_4pxv"
+                android:layout_marginTop="@dimen/_5pxv"
+                android:layout_width="@dimen/_30pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_cloud1"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_cloud1"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/next4DayWeatherDay"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_66pxh"
+                android:layout_weight="0.32"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@string/lbl_10"
+                style="@style/txtRobotoregular24" tools:text="@string/lbl_10"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/next4DayWeatherNight"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_21pxh"
+                android:layout_weight="0.32"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@string/lbl_10"
+                style="@style/txtRobotoregular24_1" tools:text="@string/lbl_10"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View android:background="@color/gray_500"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="@dimen/_1pxv"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="@dimen/_19pxh"
+        android:layout_marginStart="@dimen/_21pxh"
+        android:layout_marginTop="@dimen/_6pxv" android:layout_width="@dimen/_335pxh"/>
+
+    <LinearLayout
+        android:layout_marginStart="18dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_11pxh"
+
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <TextView android:ellipsize="end"
+            android:id="@+id/next5DayName"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_1pxv"
+            android:layout_marginTop="@dimen/_4pxv"
+
+            android:layout_width="wrap_content"
+            android:text="@string/lbl_monday"
+            style="@style/txtRobotoregular20" tools:text="@string/lbl_monday"/>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_78pxh"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <ImageView android:id="@+id/next5DayWeatherIcon"
+                android:layout_height="30dp"
+                android:layout_marginBottom="@dimen/_4pxv"
+                android:layout_marginTop="@dimen/_5pxv"
+                android:layout_width="@dimen/_30pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_cloud1"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_cloud1"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/next5DayWeatherDay"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_66pxh"
+                android:layout_weight="0.32"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@string/lbl_10"
+                style="@style/txtRobotoregular24" tools:text="@string/lbl_10"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/next5DayWeatherNight"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_21pxh"
+                android:layout_weight="0.32"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@string/lbl_10"
+                style="@style/txtRobotoregular24_1" tools:text="@string/lbl_10"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+

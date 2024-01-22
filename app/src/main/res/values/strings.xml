@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">nurgylesim_s_application3</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="lbl_may_xx_20xx">May XX, 20XX</string>
+    <string name="lbl_clear">Clear</string>
+    <string name="lbl_thursday">Thursday</string>
+    <string name="lbl_tuesday">Tuesday</string>
+    <string name="lbl_monday">Monday</string>
+    <string name="lbl_san_francisco">San Francisco</string>
+    <string name="lbl_wednesday">Wednesday</string>
+    <string name="lbl_10">10</string>
+    <string name="lbl_11">11</string>
+    <string name="lbl_friday">Friday</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
